@@ -88,13 +88,16 @@ h1 {
 
 #result {
     display: flex;
-    width: 590px;
+    flex-wrap: wrap;
+    gap: 2%;
+    width: 594px;
     margin: 0 auto;
     padding-top: 20px;
 
     .card {
         @include card-styles;
         padding: 20px;
+        margin-bottom: 10px;
 
         h3 {
             margin-bottom: 10px;
