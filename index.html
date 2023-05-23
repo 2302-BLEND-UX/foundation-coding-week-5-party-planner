@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/main.css">
+    <title>Party planner</title>
+</head>
+
+<body>
+    <div id="details-container">
+        <h1>Party planner</h1>
+        <p>Enter your details, and view your party options!</p>
+        <form id="planner-form" action="">
+            <div class="form-section input-section">
+                <label for="people">People:</label>
+                <input id="people" name="people" type="number">
+            </div>
+            <div class="form-section input-section">
+                <label for="budget">Budget:</label>
+                <input id="budget" name="budget" type="number" step="100" min="1" max="16">
+            </div>
+            <div class="form-section">
+                <button id="go">Go <span>→<span></button>
+            </div>
+        </form>
+        <!-- update the user for validation -->
+        <p id="status"></p>
+    </div>
+    <!-- show activities within the result -->
+    <div id="result">
+    </div>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- attach javascript -->
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

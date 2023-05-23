@@ -1,0 +1,11 @@
+@import "modules/resets";
+@import "modules/variables";
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&display=swap');
+// mixins
+@import "modules/mixins";
+
+// responsive
+@import "modules/responsive/mobile";
+@import "modules/responsive/tablet";
+@import "modules/responsive/desktop";
